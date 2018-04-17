@@ -2,6 +2,9 @@
 	max-width: 1920px;
 	margin: 0 auto;
 }
+.mobile__nav, .mobile__logo {
+	display: none;
+}
 
 .header {
 	position: relative;

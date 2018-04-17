@@ -1,20 +1,52 @@
 @media (max-width: 940px) {
   .header__navs__nav1,
-  .header__navs__nav2, .mobile__nav {
+  .header__navs__nav2 {
     display: none; }
   .header__navs__nav2__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  .mobile__logo a {
-    padding-left: 10px;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 28.58px; }
-    .mobile__logo a b {
-      font-weight: 100; }
+  .mobile__logo {
+    display: block; }
+    .mobile__logo a {
+      padding-left: 10px;
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Roboto";
+      font-weight: 700;
+      font-size: 29px;
+      line-height: 28.58px; }
+      .mobile__logo a b {
+        font-weight: 100; }
   .header__menu__btn {
-    display: block; } }
+    display: block; }
+  .mobile__nav {
+    position: absolute;
+    z-index: 203;
+    top: 90px;
+    width: 100%; }
+    .mobile__nav ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      width: 100%; }
+      .mobile__nav ul li a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        z-index: 203;
+        padding: 10px 0;
+        width: 100%;
+        font-size: 21px;
+        color: #fff;
+        line-height: 30px;
+        background-color: rgba(0, 19, 43, 0.2); }
+        .mobile__nav ul li a:hover {
+          background-color: rgba(0, 19, 43, 0.5); }
+  .header__content__slider__slide__content h1 {
+    font-size: 22px;
+    line-height: 45px; }
+  .header__content__slider__slide__content p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 20px 0 0 0; } }

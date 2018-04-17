@@ -1,0 +1,131 @@
+.content {
+	margin-top: 115px;
+	h2 {
+		font-family: Roboto;
+	  font-size: 58px;
+	  font-weight: 100;
+	  line-height: 1.1;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #198cca;
+	  max-width: 718px;
+	  margin: 0 auto;
+	}
+	&__title {
+		h3 {
+			margin: 0;
+			color: #198cca;
+			font-family: "Roboto";
+			font-size: 58px;
+			line-height: 64px;
+			text-align: center;
+			text-transform: lowercase;
+		}
+	}
+	&__image {
+	  width: 922px;
+	  margin: 70px auto 0 auto;
+	  img {
+	  	width: 100%;
+	  }
+	}
+	p {
+		margin: 70px auto 0 auto;
+		width: 791px;
+		color: #53687d;
+		font-family: "Roboto";
+		font-size: 20px;
+		font-weight: 100;
+		line-height: 1.5;
+		line-height: 30px;
+		text-align: center;
+	}
+	&__button {
+		max-width: 407px;
+		margin: 64px auto 0 auto;
+		.learnMoreBtn {
+			padding: 0;
+			width: 245px;
+			height: 70px;
+			background-color: #ffffff;
+			border: solid 1px #26abe4;
+			font-family: Roboto;
+			font-size: 24px;
+			font-weight: 100;
+			line-height: 1.5;
+			letter-spacing: normal;
+			text-align: center;
+			color: #26abe4;
+			margin-right: 9px;
+			outline: none;
+		}
+		.demoBtn {
+			padding: 0;
+			width: 139px;
+			height: 70px;
+			background-color: #26abe4;
+			border: solid 1px #26abe4;
+			font-family: Roboto;
+			font-size: 24px;
+			font-weight: 100;
+			line-height: 1.5;
+			letter-spacing: normal;
+			text-align: center;
+			color: #ffffff;
+			margin-left: 9px;
+			outline: none;
+		}
+	}
+	&__news {
+		margin-bottom: 15px;
+		&__item {
+			max-width: 300px;
+			span {
+				display: block;
+				font-family: Roboto;
+				font-size: 14px;
+				font-weight: 100;
+				line-height: 2;
+				letter-spacing: normal;
+				text-align: left;
+				color: #9ca9b6;
+			}
+			a {
+				display: block;
+				margin-top: 25px;
+				text-decoration: none;
+				font-family: Roboto;
+				font-size: 24px;
+				font-weight: 100;
+				line-height: 1.25;
+				letter-spacing: normal;
+				text-align: left;
+				color: #26abe4;
+			}
+			p {
+				margin-top: 35px;
+				font-family: Roboto;
+				font-size: 18px;
+				font-weight: 100;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.56;
+				letter-spacing: normal;
+				text-align: left;
+				color: #53687d;
+				width: 100%;
+			}
+		}
+	}
+}
+.newsBlock {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  align-items: flex-start;
+  max-width: 945px;
+  margin: 70px auto 0 auto;
+}
+.newsBlockCenter {
+	align-items: center;
+}
