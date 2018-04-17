@@ -1,0 +1,20 @@
+@media (max-width: 940px) {
+  .header__navs__nav1,
+  .header__navs__nav2, .mobile__nav {
+    display: none; }
+  .header__navs__nav2__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .mobile__logo a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 28.58px; }
+    .mobile__logo a b {
+      font-weight: 100; }
+  .header__menu__btn {
+    display: block; } }

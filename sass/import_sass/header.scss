@@ -4,6 +4,7 @@
 }
 
 .header {
+	position: relative;
 	&__navs {
 		position: absolute;
 		z-index: 202;
@@ -117,10 +118,9 @@
 					ul {
 						display: none;
 						padding: 0;
-						background-color: #2FB06F;
 						position: absolute;
 						flex-direction: column;
-						top: 49px;
+						top: 61px;
 						width: 100%;
 						li {
 							a {
@@ -133,7 +133,7 @@
 									background-color: rgba(0,30,58, 0.8);
 								}
 							}
-							&:first-child {
+							&:first-child a {
 								border-bottom: 1px solid #001E3A;
 							}
 						}
@@ -141,7 +141,8 @@
 				} 
 				li {
 					a {
-						padding: 20px 30px;
+						padding: 12px 30px;
+						display: block;
 						//background-color: #971717;
 						text-decoration: none;
 						color: #ffffff;
@@ -157,12 +158,12 @@
 						border-left: 2px solid #466279;
 						border-right: 2px solid #466279;
 						border-bottom: 4px solid #00b0f0;
-						padding-bottom: 16px;
+						padding-bottom: 9px;
 					}
 					.industries {
 						border-right: 2px solid #466279;
 						border-bottom: 4px solid #ff9b37;
-						padding-bottom: 16px;
+						padding-bottom: 9px;
 						i {
 							margin-left: 10px;
 						}
@@ -170,7 +171,7 @@
 					.products {
 						border-right: 2px solid #466279;
 						border-bottom: 4px solid #8ecc61;
-						padding-bottom: 16px;
+						padding-bottom: 9px;
 						i {
 							margin-left: 20px;
 						}
@@ -226,11 +227,22 @@
 						&:hover {
 							background-color: #ffffff;
 							color: #064f7c;
-							transition-delay: .5s;
+							transition-delay: .1s;
 						}
 					}
 				}
 			}
 		}
 	}
+}
+.header__menu__btn {
+		margin-right: 10px;
+		position: relative;
+		height: 40px;
+		width: 40px;
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		outline:none;
+		display: none;
 }
