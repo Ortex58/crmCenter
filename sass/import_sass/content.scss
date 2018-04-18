@@ -31,7 +31,7 @@
 	}
 	p {
 		margin: 70px auto 0 auto;
-		width: 791px;
+		max-width: 791px;
 		color: #53687d;
 		font-family: "Roboto";
 		font-size: 20px;
@@ -43,6 +43,7 @@
 	&__button {
 		max-width: 407px;
 		margin: 64px auto 0 auto;
+		text-align: center;
 		.learnMoreBtn {
 			padding: 0;
 			width: 245px;
@@ -124,7 +125,7 @@
 	justify-content: space-between;
   align-items: flex-start;
   max-width: 945px;
-  margin: 70px auto 0 auto;
+  margin: 70px auto 115px auto;
 }
 .newsBlockCenter {
 	align-items: center;

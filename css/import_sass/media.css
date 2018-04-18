@@ -50,3 +50,40 @@
     font-size: 12px;
     line-height: 20px;
     margin: 20px 0 0 0; } }
+
+@media (max-width: 940px) {
+  .content__image {
+    width: 303px; }
+  .content p {
+    font-size: 16px;
+    line-height: 25px; } }
+
+@media (max-width: 423px) {
+  .content__button .learnMoreBtn {
+    margin-right: 0; }
+  .content__button .demoBtn {
+    margin-left: 0;
+    margin-top: 10px; }
+  .content h2 {
+    font-size: 40px; } }
+
+@media (max-width: 940px) {
+  .countres__title {
+    font-size: 32px; }
+  .countres__phone, .footer__contacts__2line--mail a {
+    font-size: 23px; } }
+
+@media (max-width: 625px) {
+  .footer__contacts__1line--countries {
+    flex-direction: column; }
+  .countres__title {
+    font-weight: bold; }
+  .footer__tree {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; } }
+
+@media (max-width: 520px) {
+  .footer__bottom__developer--logo {
+    margin-left: 0;
+    margin-right: 10px; } }
