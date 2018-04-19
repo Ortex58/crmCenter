@@ -1,4 +1,5 @@
 .footer {
+	flex: 0 0 auto;
 	&__contacts {
 		padding: 40px 0 60px 0;
 		position: relative;
@@ -11,8 +12,15 @@
 			margin: 0 auto;
 			padding-bottom: 55px; 
 			&--img {
+				cursor: pointer;
 				margin: 0 auto;
 				width: 75px;
+				height: 75px;
+				&:hover {
+						background-color: #B7D2DC;
+						border-radius: 50%;
+				}
+				margin-bottom: 40px;
 				img {
 					width: 100%;
 				}
@@ -30,7 +38,7 @@
 				a {
 					text-decoration: none;
 					color: #ffffff;
-					font-family: "Roboto";
+					font-family: "Roboto",Helvetica,Arial,sans-serif;
 					font-weight: 100;
 					font-size: 32px;
 					line-height: 60px;
@@ -57,8 +65,11 @@
 						color: #26abe4;
 						font-size: 16px;
 						line-height: 32px;
-						font-family: "Roboto";
+						font-family: "Roboto",Helvetica,Arial,sans-serif;
 						font-weight: 500;
+						&:hover {
+							border-bottom: 0.5px solid #26abe4;
+						}
 					}
 				}
 			}
@@ -66,7 +77,7 @@
 				color: #26abe4;
 				font-size: 24px;
 				line-height: 30px;
-				font-family: "Roboto";
+				font-family: "Roboto",Helvetica,Arial,sans-serif;
 				font-weight: 600;
 			}
 			&__social {
@@ -75,6 +86,14 @@
 				display: flex;
 				justify-content: space-between;
     		align-items: center;
+    		a {
+    			width: 40px;
+					height: 40px;
+					&:hover {
+						background-color: #B7D2DC;
+						border-radius: 50%;
+					}
+    		}
 			}
 		}
 	}
@@ -90,7 +109,7 @@
   		color: #53687d;
 			font-size: 16px;
 			line-height: 22px;
-			font-family: "Roboto";
+			font-family: "Roboto",Helvetica,Arial,sans-serif;
 			font-weight: 100;
 		}
 		&__developer {
@@ -117,7 +136,7 @@
   align-items: center;
   &__title {
   	color: #fff;
-		font-family: "Roboto";
+		font-family: "Roboto",Helvetica,Arial,sans-serif;
 		font-size: 45px;
 		font-weight: 100;
 		line-height: 60px;
@@ -125,10 +144,31 @@
   }
   &__phone {
   	color: #fff;
-		font-family: "Roboto";
+		font-family: "Roboto",Helvetica,Arial,sans-serif;
 		font-size: 32px;
 		font-weight: 100;
 		line-height: 60px;
 		margin: 0;
   }
+}
+.f-phone {
+	background: url(../img/all-social1.png) 0 -41px;
+}
+.f-mail {
+	background: url(../img/all-social1.png) -76px -41px;
+}
+.facebook {
+	background: url(../img/all-social1.png);
+}
+.youtube {
+	background: url(../img/all-social1.png) -40px 0;
+}
+.googleplus {
+	background: url(../img/all-social1.png) -80px 0;
+}
+.twiter {
+	background: url(../img/all-social1.png) -120px 0;
+}
+.in {
+	background: url(../img/all-social1.png) -160px 0;
 }

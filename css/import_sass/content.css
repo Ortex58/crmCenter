@@ -1,3 +1,6 @@
+section {
+  flex: 1 0 auto; }
+
 .content {
   margin-top: 115px; }
   .content h2 {
@@ -13,7 +16,7 @@
   .content__title h3 {
     margin: 0;
     color: #198cca;
-    font-family: "Roboto";
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
     font-size: 58px;
     line-height: 64px;
     text-align: center;
@@ -27,7 +30,7 @@
     margin: 70px auto 0 auto;
     max-width: 791px;
     color: #53687d;
-    font-family: "Roboto";
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-weight: 100;
     line-height: 1.5;
@@ -38,6 +41,7 @@
     margin: 64px auto 0 auto;
     text-align: center; }
     .content__button .learnMoreBtn {
+      cursor: pointer;
       padding: 0;
       width: 245px;
       height: 70px;
@@ -52,7 +56,11 @@
       color: #26abe4;
       margin-right: 9px;
       outline: none; }
+      .content__button .learnMoreBtn:hover {
+        background-color: #26abe4;
+        color: #fff; }
     .content__button .demoBtn {
+      cursor: pointer;
       padding: 0;
       width: 139px;
       height: 70px;
@@ -91,6 +99,8 @@
         letter-spacing: normal;
         text-align: left;
         color: #26abe4; }
+        .content__news__item a:hover {
+          text-decoration: underline; }
       .content__news__item p {
         margin-top: 35px;
         font-family: Roboto;

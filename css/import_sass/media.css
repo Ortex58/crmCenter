@@ -58,6 +58,10 @@
     font-size: 16px;
     line-height: 25px; } }
 
+@media (max-width: 640px) {
+  .content__news {
+    margin: 0 auto 15px auto; } }
+
 @media (max-width: 423px) {
   .content__button .learnMoreBtn {
     margin-right: 0; }
@@ -87,3 +91,15 @@
   .footer__bottom__developer--logo {
     margin-left: 0;
     margin-right: 10px; } }
+
+@media (max-width: 640px) {
+  .form form .close {
+    top: -17px;
+    right: 19px; }
+  .form form {
+    width: auto;
+    top: 33%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }

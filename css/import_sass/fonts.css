@@ -5,3 +5,7 @@
   src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Thin.ttf"); }

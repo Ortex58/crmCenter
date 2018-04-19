@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<title>CRM Center</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="libs/fontawesome/css/fontawesome-all.min.css">
@@ -15,11 +16,11 @@
 		<header class="header">
 			<nav class="header__navs">
 				<ul class="header__navs__nav1">
-					<li><a href="#"><i class="fas fa-sign-in-alt"></i> Войти</a></li>
+					<li><a href="#" class="login"><i class="fas fa-sign-in-alt"></i> Войти</a></li>
 					<li class="country"><a href="#"><i class="fas fa-phone"></i> <span class="phone">Украина<i class="fas fa-angle-down"></i></span></a>
 						<ul>
-							<li><a href="#">Польща</a></li>
-							<li><a href="#">Румунія</a></li>
+							<li><a href="#">Россия</a></li>
+							<li><a href="#">Казахстан</a></li>
 						</ul>
 					</li>
 					<li><a href="#">+380 (44) 591-92-81</a></li>
@@ -61,7 +62,7 @@
 					<li><a href="#"> Разработка</a></li>
 					<li><a href="#"> Продукты</a></li>
 					<li><a href="#"> +380 (44) 591-92-81</a></li>
-					<li><a href="#"> Войти</a></li>
+					<li><a href="#" class="login"> Войти</a></li>
 				</ul>
 			</nav>
 			<div class="header__content">
@@ -210,8 +211,8 @@
 		<footer class="footer">
 			<div class="footer__contacts">
 				<div class="footer__contacts__1line">
-					<div class="footer__contacts__1line--img">
-						<img src="img/phone.png" alt="phone-img">
+					<div class="footer__contacts__1line--img f-phone">
+						
 					</div>
 					<div class="footer__contacts__1line--countries">
 						<div class="countres">
@@ -229,8 +230,8 @@
 					</div>
 				</div>
 				<div class="footer__contacts__2line">
-					<div class="footer__contacts__1line--img">
-						<img src="img/mail.png" alt="mail-img">
+					<div class="footer__contacts__1line--img f-mail">
+						
 					</div>
 					<div class="footer__contacts__2line--mail">
 						<a href="#">info@crmcentre.ru</a>
@@ -261,11 +262,11 @@
 						<span>Присоединяйтесь:</span>
 					</div>
 					<div class="footer__tree__block__social">
-						<a href="#"><img src="img/facebook.png" alt="facebook"></a>
-						<a href="#"><img src="img/youtube.png" alt="youtube"></a>
-						<a href="#"><img src="img/googleplus.png" alt="googleplus"></a>
-						<a href="#"><img src="img/twiter.png" alt="twiter"></a>
-						<a href="#"><img src="img/in.png" alt="in"></a>
+						<a href="#" class="facebook"></a>
+						<a href="#" class="youtube"></a>
+						<a href="#" class="googleplus"></a>
+						<a href="#" class="twiter"></a>
+						<a href="#" class="in"></a>
 					</div>
 				</div>
 			</div>
@@ -287,7 +288,15 @@
 
 	</div>
 
-
+<div class="form">
+	<form action="#">
+		<span class="close">+</span>
+		<input type="text" placeholder="Имя" class="form__text">
+		<input type="email" placeholder="E-mail" class="form__text">
+		<textarea name="desc" id="" cols="10" rows="1" placeholder="Описание" class="form__text"></textarea>
+		<input type="submit" value="Отправить" class="form__btn">
+	</form>
+</div>
 	<script src="libs/jquery.js"></script>
 	<script src="libs/slick/slick.min.js"></script>
 	<script src="js/index.js"></script>
