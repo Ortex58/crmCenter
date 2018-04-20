@@ -92,7 +92,7 @@
     margin-left: 0;
     margin-right: 10px; } }
 
-@media (max-width: 640px) {
+@media (max-width: 582px) {
   .form form .close {
     top: -17px;
     right: 19px; }

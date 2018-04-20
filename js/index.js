@@ -29,6 +29,7 @@ $(".login").click(function() {
 		$(".header__content__slider__slide__content").css("display", "none");
 	} 
 	$(".mobile__nav").css("display", "none");
+	$(".sandwich").toggleClass("active");	
 });
 
 //show menu click

@@ -132,16 +132,16 @@
 }
 
 //Form
-@media (max-width: 640px) {
+@media (max-width: 582px) {
 	.form form .close {
 		top: -17px;
-    right: 19px;
+		right: 19px;
 	}
 	.form form {
 		width: auto;
 		top: 33%;
-    left: 0;
-    right: 0;
-    transform: translate(0,0);
+		left: 0;
+		right: 0;
+		transform: translate(0,0);
 	}
 }

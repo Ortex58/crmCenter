@@ -3056,6 +3056,7 @@ section {
   background: url(../img/all-social1.png) -160px 0; }
 
 .form {
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
   overflow: hidden;
   display: none;
   width: 100%;
@@ -3066,6 +3067,11 @@ section {
   top: 0;
   left: 0;
   right: 0; }
+  .form h3 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center; }
   .form__text {
     padding: 5px 0 5px 10px; }
   .form__btn {
@@ -3073,23 +3079,16 @@ section {
     padding: 5px 0;
     width: 245px;
     height: 35px;
-    background-color: #ffffff;
-    border: solid 1px #26abe4;
-    font-family: Roboto;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    font-weight: 100;
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
-    color: black;
     margin-right: 9px;
     outline: none; }
-    .form__btn:hover {
-      background-color: #26abe4;
-      color: #fff; }
   .form form {
     padding: 30px 10px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 26, 49, 0.5);
     width: 100%;
     max-width: 500px;
     position: absolute;
@@ -3113,39 +3112,46 @@ section {
     .form form input {
       background-color: #ffffff;
       border: solid 1px #26abe4;
-      font-family: Roboto;
-      font-size: 18px;
-      font-weight: 100;
-      line-height: 1.5;
       max-width: 200px;
       margin: 10px auto;
       color: black;
-      outline: none; }
-      .form form input::-webkit-input-placeholder {
-        color: black; }
-      .form form input:-moz-placeholder {
-        color: black; }
-      .form form input::-moz-placeholder {
-        color: black; }
-      .form form input:-ms-input-placeholder {
-        color: black; }
-    .form form textarea {
       outline: none;
-      background-color: #ffffff;
-      border: solid 1px #26abe4;
-      font-family: Roboto;
+      color: #6667B6;
+      font-family: "Roboto",Helvetica,Arial,sans-serif;
       font-size: 18px;
-      font-weight: 100;
-      line-height: 1.5;
-      margin: 10px 0; }
-      .form form textarea::-webkit-input-placeholder {
-        color: black; }
-      .form form textarea:-moz-placeholder {
-        color: black; }
-      .form form textarea::-moz-placeholder {
-        color: black; }
-      .form form textarea:-ms-input-placeholder {
-        color: black; }
+      font-weight: 600;
+      line-height: 1.5; }
+      .form form input:focus {
+        background-color: #ECD854; }
+      .form form input[type="submit"] {
+        background-color: #26abe4;
+        border: solid 1px #26abe4;
+        color: #fff;
+        font-weight: 600; }
+      .form form input::-webkit-input-placeholder {
+        color: #6667B6;
+        font-family: "Roboto",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5; }
+      .form form input:-moz-placeholder {
+        color: #6667B6;
+        font-family: "Roboto",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5; }
+      .form form input::-moz-placeholder {
+        color: #6667B6;
+        font-family: "Roboto",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5; }
+      .form form input:-ms-input-placeholder {
+        color: #6667B6;
+        font-family: "Roboto",Helvetica,Arial,sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5; }
 
 @media (max-width: 940px) {
   .header__navs__nav1,
@@ -3241,7 +3247,7 @@ section {
     margin-left: 0;
     margin-right: 10px; } }
 
-@media (max-width: 640px) {
+@media (max-width: 582px) {
   .form form .close {
     top: -17px;
     right: 19px; }
