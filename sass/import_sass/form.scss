@@ -76,6 +76,7 @@
 			line-height: 1.5;
 			&:focus {
 			    background-color: #ECD854;
+			    outline: none;
 			}
 			&[type="submit"] {
 				background-color: #26abe4;

@@ -37,13 +37,13 @@ $(".login").click(function() {
 	} 
 	$(".mobile__nav").css("display", "none");
 	$(".sandwich").toggleClass("active");	
+	$("#name").focus();
 });
 
 //show menu click
 		$(".header__menu__btn").click(function(){
 		    $(".mobile__nav").slideToggle(1500);
 		    $(".header__content__slider__slide__content").slideToggle(1500);
-		   
 		});
 
 // WOW JS

@@ -67,7 +67,8 @@
       font-weight: 600;
       line-height: 1.5; }
       .form form input:focus {
-        background-color: #ECD854; }
+        background-color: #ECD854;
+        outline: none; }
       .form form input[type="submit"] {
         background-color: #26abe4;
         border: solid 1px #26abe4;
