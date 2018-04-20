@@ -1,14 +1,20 @@
+// Slick slider
 $('.header__content__slider').slick({
 	dots: true,
 	arrows: false
 });
+
+
 
 //Burger open, close
 $(".sandwich, .menu_item").click(function() {
   $(".sandwich").toggleClass("active");
 });
 
+
+
 // Form
+// Close pop-up
 var modal = document.querySelector('.form');
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -22,6 +28,7 @@ $(".close").click(function() {
   $(".header__content__slider__slide__content").css("display", "block");
   $('html').css("overflow", "visible");
 });
+// Open pop-up
 $(".login").click(function() {
 	$('html').css("overflow", "hidden");
 	$(".form").show();
@@ -40,7 +47,6 @@ $(".login").click(function() {
 		});
 
 // WOW JS
-
 new WOW().init();
 
 //Animate icon phone and mail
@@ -56,3 +62,30 @@ $(".f-mail").click(function() {
 			$(this).removeClass('animated bounce');
 		});
 });
+
+var country = document.querySelector('.phone'),
+    ukr = document.querySelector('.phone1'),
+    rus = document.querySelector('.phone2'),
+    kaz = document.querySelector('.phone3'),
+	phoneNumber = ['+'+380+'('+44+')'+591+'-'+92+'-'+81, '+'+380+'('+32+')'+450+'-'+99+'-'+45, '+'+380+'('+36+')'+222+'-'+88+'-'+35],
+	phone = document.querySelector('#phone');
+	phone.innerHTML += phoneNumber[0];
+	
+	
+rus.onclick = function() {
+    phone.innerHTML = '';
+    phone.innerHTML += phoneNumber[1];
+    country.innerHTML = 'Россия' + '<i class="fas fa-angle-down"></i>';
+};
+ukr.onclick = function() {
+    phone.innerHTML = '';
+    phone.innerHTML += phoneNumber[0];
+    country.innerHTML = 'Украина' + '<i class="fas fa-angle-down"></i>';
+};
+kaz.onclick = function() {
+    phone.innerHTML = '';
+    phone.innerHTML += phoneNumber[2];
+    country.innerHTML = 'Казахстан' + '<i class="fas fa-angle-down"></i>';
+};
+
+
