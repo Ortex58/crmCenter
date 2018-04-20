@@ -17,7 +17,7 @@
 				width: 75px;
 				height: 75px;
 				&:hover {
-						background-color: #B7D2DC;
+						background-color: #1271B5;
 						border-radius: 50%;
 				}
 				margin-bottom: 40px;
@@ -66,7 +66,7 @@
 						font-size: 16px;
 						line-height: 32px;
 						font-family: "Roboto",Helvetica,Arial,sans-serif;
-						font-weight: 500;
+						font-weight: 600;
 						&:hover {
 							border-bottom: 0.5px solid #26abe4;
 						}
@@ -78,7 +78,7 @@
 				font-size: 24px;
 				line-height: 30px;
 				font-family: "Roboto",Helvetica,Arial,sans-serif;
-				font-weight: 600;
+				font-weight: 700;
 			}
 			&__social {
 				margin-top: 20px;
@@ -90,7 +90,7 @@
     			width: 40px;
 					height: 40px;
 					&:hover {
-						background-color: #B7D2DC;
+						background-color: #4ca2e0;
 						border-radius: 50%;
 					}
     		}
@@ -105,8 +105,8 @@
 			margin: 0 auto;
 			display: flex;
 			justify-content: space-between;
-  		align-items: center;
-  		color: #53687d;
+	  		align-items: center;
+	  		color: #53687d;
 			font-size: 16px;
 			line-height: 22px;
 			font-family: "Roboto",Helvetica,Arial,sans-serif;
