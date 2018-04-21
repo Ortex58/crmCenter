@@ -1,6 +1,6 @@
 @media (max-width: 940px) {
   .header__navs__nav1,
-  .header__navs__nav2 {
+  .header__navs__nav2, .lang-phone ul {
     display: none; }
   .header__navs__nav2__wrapper {
     display: flex;
@@ -50,6 +50,13 @@
     font-size: 12px;
     line-height: 20px;
     margin: 20px 0 0 0; } }
+
+.lang-phone ul li a {
+  text-decoration: none;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 36px; }
 
 @media (max-width: 940px) {
   .content__image {

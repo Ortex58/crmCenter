@@ -62,30 +62,52 @@ $(".f-mail").click(function() {
 			$(this).removeClass('animated bounce');
 		});
 });
-
+// Country phone logic
 var country = document.querySelector('.phone'),
     ukr = document.querySelector('.phone1'),
     rus = document.querySelector('.phone2'),
     kaz = document.querySelector('.phone3'),
 	phoneNumber = ['+'+380+'('+44+')'+591+'-'+92+'-'+81, '+'+380+'('+32+')'+450+'-'+99+'-'+45, '+'+380+'('+36+')'+222+'-'+88+'-'+35],
 	phone = document.querySelector('#phone');
-	phone.innerHTML += phoneNumber[0];
+phone.innerHTML += phoneNumber[0];
 	
 	
 rus.onclick = function() {
-    phone.innerHTML = '';
-    phone.innerHTML += phoneNumber[1];
+    phone.innerHTML = phoneNumber[1];
     country.innerHTML = 'Россия' + '<i class="fas fa-angle-down"></i>';
 };
 ukr.onclick = function() {
-    phone.innerHTML = '';
-    phone.innerHTML += phoneNumber[0];
+    phone.innerHTML = phoneNumber[0];
     country.innerHTML = 'Украина' + '<i class="fas fa-angle-down"></i>';
 };
 kaz.onclick = function() {
-    phone.innerHTML = '';
-    phone.innerHTML += phoneNumber[2];
+    phone.innerHTML = phoneNumber[2];
     country.innerHTML = 'Казахстан' + '<i class="fas fa-angle-down"></i>';
 };
+// Country-phone logic mobile
+var m_phone = document.querySelector('#m_phone'),
+	m_ukr = document.querySelector('.m_phone1'),
+    m_rus = document.querySelector('.m_phone2'),
+    m_kaz = document.querySelector('.m_phone3');
+m_phone.innerHTML = 'UKR' + ' ' + phoneNumber[0];
+
+m_ukr.onclick = function() {
+    m_phone.innerHTML = 'UKR' + ' ' + phoneNumber[0];
+};
+
+m_rus.onclick = function() {
+    m_phone.innerHTML = 'RUS' + ' ' + phoneNumber[1];
+};
+
+m_kaz.onclick = function() {
+    m_phone.innerHTML = 'KAZ' + ' ' + phoneNumber[2];
+};
+// Show-Hide mobile country-phone
+$('.mobile__nav ul li a').click(function() {
+	$('.lang-phone ul').slideToggle(1500);
+});
+
+
+	
 
 

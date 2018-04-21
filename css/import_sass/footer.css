@@ -5,6 +5,8 @@
     position: relative;
     background-color: #8cd1ff;
     background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%; }
     .footer__contacts__1line {
       border-bottom: 1px solid #fff;
@@ -16,6 +18,7 @@
         margin: 0 auto;
         width: 75px;
         height: 75px;
+        border-radius: 50%;
         margin-bottom: 40px; }
         .footer__contacts__1line--img:hover {
           background-color: #1271B5;
@@ -39,7 +42,7 @@
           line-height: 60px;
           border-bottom: 1px solid #fff; }
   .footer__tree {
-    padding: 65px 0;
+    padding: 65px 5px;
     display: flex;
     justify-content: space-between;
     align-items: flex-srart;
@@ -77,7 +80,7 @@
           background-color: #4ca2e0;
           border-radius: 50%; }
   .footer__bottom {
-    padding: 25px 0;
+    padding: 25px 5px;
     background-color: #e9eff2; }
     .footer__bottom__wraper {
       max-width: 960px;

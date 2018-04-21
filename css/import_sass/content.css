@@ -78,7 +78,8 @@ section {
   .content__news {
     margin-bottom: 15px; }
     .content__news__item {
-      max-width: 300px; }
+      max-width: 300px;
+      margin: 5px; }
       .content__news__item span {
         display: block;
         font-family: Roboto;
@@ -123,4 +124,7 @@ section {
   margin: 70px auto 115px auto; }
 
 .newsBlockCenter {
-  align-items: center; }
+  align-items: center;
+  padding: 0 5px; }
+  .newsBlockCenter img {
+    margin: 5px; }
