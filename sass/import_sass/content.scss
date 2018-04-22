@@ -2,6 +2,7 @@ section {
   flex: 1 0 auto;
 }
 .content {
+	padding: 0 5px;
 	margin-top: 115px;
 	h2 {
 		font-family: Roboto;
@@ -33,6 +34,7 @@ section {
 	  }
 	}
 	p {
+		padding: 0 5px;
 		margin: 70px auto 0 auto;
 		max-width: 791px;
 		color: #53687d;
@@ -48,24 +50,21 @@ section {
 		margin: 64px auto 0 auto;
 		text-align: center;
 		.learnMoreBtn {
-			cursor: pointer;
-			padding: 0;
 			width: 245px;
 			height: 70px;
 			background-color: #ffffff;
 			border: solid 1px #26abe4;
-			font-family: Roboto;
-			font-size: 24px;
-			font-weight: 100;
-			line-height: 1.5;
-			letter-spacing: normal;
 			text-align: center;
 			color: #26abe4;
 			margin-right: 9px;
-			outline: none;
 			&:hover {
 				background-color: #26abe4;
 				color: #fff;
+			}
+			&:focus {
+				background-color: transparent;
+				color: #26abe4;
+				transition: 0.5s;
 			}
 		}
 		.demoBtn {
@@ -136,9 +135,9 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-  align-items: flex-start;
-  max-width: 945px;
-  margin: 70px auto 115px auto;
+	align-items: flex-start;
+	max-width: 945px;
+	margin: 70px auto 115px auto;
 }
 .newsBlockCenter {
 	align-items: center;

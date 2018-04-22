@@ -14,17 +14,17 @@
       margin: 0 auto;
       padding-bottom: 55px; }
       .footer__contacts__1line--img {
-        cursor: pointer;
         margin: 0 auto;
         width: 75px;
         height: 75px;
         border-radius: 50%;
+        overflow: hidden;
+        outline: none;
         margin-bottom: 40px; }
         .footer__contacts__1line--img:hover {
           background-color: #1271B5;
-          border-radius: 50%; }
-        .footer__contacts__1line--img img {
-          width: 100%; }
+          border-radius: 50%;
+          outline: none; }
       .footer__contacts__1line--countries {
         display: flex;
         justify-content: space-between;

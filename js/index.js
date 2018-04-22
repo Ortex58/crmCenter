@@ -17,19 +17,22 @@ $(".sandwich, .menu_item").click(function() {
 // Close pop-up
 var modal = document.querySelector('.form');
 window.onclick = function(event) {
+	event.preventDefault();
     if (event.target == modal) {
         modal.style.display = "none";
         $(".header__content__slider__slide__content").css("display", "block");
         $('html').css("overflow", "visible");
     }
 }
-$(".close").click(function() {
+$(".close").click(function(e) {
+	e.preventDefault();
   $(".form").hide();
   $(".header__content__slider__slide__content").css("display", "block");
   $('html').css("overflow", "visible");
 });
 // Open pop-up
-$(".login").click(function() {
+$(".login").click(function(e) {
+	e.preventDefault();
 	$('html').css("overflow", "hidden");
 	$(".form").show();
 	if ($(".form").css("display", "block")) {
@@ -50,16 +53,18 @@ $(".login").click(function() {
 new WOW().init();
 
 //Animate icon phone and mail
-$(".f-phone").click(function() {
-	$(".f-phone").addClass('animated bounce').one('webkitAnimationEnd mozAnimationEnd msAnimationEnd oanimationend animationend',
+$(".f-phone").hover(function(e) {
+	e.preventDefault();
+	$(".f-phone").addClass('animated wobble').one('webkitAnimationEnd mozAnimationEnd msAnimationEnd oanimationend animationend',
 		function() {
-			$(this).removeClass('animated bounce');
+			$(this).removeClass('animated wobble');
 		});
 });
-$(".f-mail").click(function() {
-	$(".f-mail").addClass('animated bounce').one('webkitAnimationEnd mozAnimationEnd msAnimationEnd oanimationend animationend',
+$(".f-mail").hover(function(e) {
+	e.preventDefault();
+	$(".f-mail").addClass('animated wobble').one('webkitAnimationEnd mozAnimationEnd msAnimationEnd oanimationend animationend',
 		function() {
-			$(this).removeClass('animated bounce');
+			$(this).removeClass('animated wobble');
 		});
 });
 // Country phone logic
@@ -72,15 +77,18 @@ var country = document.querySelector('.phone'),
 phone.innerHTML += phoneNumber[0];
 	
 	
-rus.onclick = function() {
+rus.onclick = function(e) {
+	e.preventDefault();
     phone.innerHTML = phoneNumber[1];
     country.innerHTML = 'Россия' + '<i class="fas fa-angle-down"></i>';
 };
-ukr.onclick = function() {
+ukr.onclick = function(e) {
+	e.preventDefault();
     phone.innerHTML = phoneNumber[0];
     country.innerHTML = 'Украина' + '<i class="fas fa-angle-down"></i>';
 };
-kaz.onclick = function() {
+kaz.onclick = function(e) {
+	e.preventDefault();
     phone.innerHTML = phoneNumber[2];
     country.innerHTML = 'Казахстан' + '<i class="fas fa-angle-down"></i>';
 };
@@ -89,22 +97,31 @@ var m_phone = document.querySelector('#m_phone'),
 	m_ukr = document.querySelector('.m_phone1'),
     m_rus = document.querySelector('.m_phone2'),
     m_kaz = document.querySelector('.m_phone3');
-m_phone.innerHTML = 'UKR' + ' ' + phoneNumber[0];
+m_phone.innerHTML = 'UKR' + ' ' + phoneNumber[0] + ' ' + '<i class="fas fa-angle-down"></i>';
 
-m_ukr.onclick = function() {
-    m_phone.innerHTML = 'UKR' + ' ' + phoneNumber[0];
+m_ukr.onclick = function(e) {
+	e.preventDefault();
+    m_phone.innerHTML = 'UKR' + ' ' + phoneNumber[0] + ' ' + '<i class="fas fa-angle-down"></i>';
 };
 
-m_rus.onclick = function() {
-    m_phone.innerHTML = 'RUS' + ' ' + phoneNumber[1];
+m_rus.onclick = function(e) {
+	e.preventDefault();
+    m_phone.innerHTML = 'RUS' + ' ' + phoneNumber[1] + ' ' + '<i class="fas fa-angle-down"></i>';
 };
 
-m_kaz.onclick = function() {
-    m_phone.innerHTML = 'KAZ' + ' ' + phoneNumber[2];
+m_kaz.onclick = function(e) {
+	e.preventDefault();
+    m_phone.innerHTML = 'KAZ' + ' ' + phoneNumber[2] + ' ' + '<i class="fas fa-angle-down"></i>';
 };
 // Show-Hide mobile country-phone
-$('.mobile__nav ul li a').click(function() {
-	$('.lang-phone ul').slideToggle(1500);
+$('#m_phone').click(function(e) {
+	e.preventDefault();
+	$('.lang-phone-drop ul').slideToggle(1500);
+});
+
+$('.m-products-drop').click(function(e) {
+	e.preventDefault();
+	$('.m-products-drop ul').slideToggle(1500);
 });
 
 

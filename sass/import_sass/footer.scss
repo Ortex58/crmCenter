@@ -14,24 +14,23 @@
 			margin: 0 auto;
 			padding-bottom: 55px; 
 			&--img {
-				cursor: pointer;
 				margin: 0 auto;
 				width: 75px;
 				height: 75px;
 				border-radius: 50%;
+				overflow: hidden;
+				outline: none;
+				margin-bottom: 40px;
 				&:hover {
 						background-color: #1271B5;
 						border-radius: 50%;
-				}
-				margin-bottom: 40px;
-				img {
-					width: 100%;
+						outline: none;
 				}
 			}
 			&--countries {
 				display: flex;
 				justify-content: space-between;
-    		align-items: center;
+    			align-items: center;
 			}
 		}
 		&__2line {
@@ -136,9 +135,9 @@
 .countres {
 	display: flex;
 	flex-direction: column;
-  align-items: center;
+	  align-items: center;
   &__title {
-  	color: #fff;
+	  	color: #fff;
 		font-family: "Roboto",Helvetica,Arial,sans-serif;
 		font-size: 45px;
 		font-weight: 100;
@@ -146,7 +145,7 @@
 		margin: 0;
   }
   &__phone {
-  	color: #fff;
+  		color: #fff;
 		font-family: "Roboto",Helvetica,Arial,sans-serif;
 		font-size: 32px;
 		font-weight: 100;

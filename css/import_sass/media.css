@@ -44,8 +44,10 @@
         .mobile__nav ul li a:hover {
           background-color: rgba(0, 19, 43, 0.5); }
   .header__content__slider__slide__content h1 {
-    font-size: 22px;
+    font-size: 44px;
     line-height: 45px; }
+  .content__title h3 {
+    font-size: 38px; }
   .header__content__slider__slide__content p {
     font-size: 12px;
     line-height: 20px;
@@ -57,6 +59,9 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 36px; }
+
+.m_industries .fas {
+  margin-left: 5px; }
 
 @media (max-width: 940px) {
   .content__image {

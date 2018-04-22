@@ -32,14 +32,11 @@
 		z-index: 203;
 		top: 90px;
 		width: 100%;
-		//left: 50%;
-		//transform: translate(-50%, 0);
 		ul {
 			padding: 0;
 			margin: 0;
 			list-style-type: none;
 			width: 100%;
-			//background-color: #997B7B;
 			li {
 				a {
 					display: block;
@@ -60,8 +57,11 @@
 		}
 	}
 	.header__content__slider__slide__content h1 {
-		font-size: 22px;
+		font-size: 44px;
 		line-height: 45px;
+	}
+	.content__title h3 {
+		font-size: 38px;
 	}
 	.header__content__slider__slide__content p {
 		font-size: 12px;
@@ -76,6 +76,9 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 36px;
+}
+.m_industries .fas {
+	margin-left: 5px;
 }
 
 // Content
