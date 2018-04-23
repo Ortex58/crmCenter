@@ -40,7 +40,6 @@
 				a {
 					text-decoration: none;
 					color: #ffffff;
-					font-family: "Roboto",Helvetica,Arial,sans-serif;
 					font-weight: 100;
 					font-size: 32px;
 					line-height: 60px;
@@ -67,7 +66,6 @@
 						color: #26abe4;
 						font-size: 16px;
 						line-height: 32px;
-						font-family: "Roboto",Helvetica,Arial,sans-serif;
 						font-weight: 600;
 						&:hover {
 							border-bottom: 0.5px solid #26abe4;
@@ -79,7 +77,6 @@
 				color: #26abe4;
 				font-size: 24px;
 				line-height: 30px;
-				font-family: "Roboto",Helvetica,Arial,sans-serif;
 				font-weight: 700;
 			}
 			&__social {
@@ -111,7 +108,6 @@
 	  		color: #53687d;
 			font-size: 16px;
 			line-height: 22px;
-			font-family: "Roboto",Helvetica,Arial,sans-serif;
 			font-weight: 100;
 		}
 		&__developer {
@@ -135,10 +131,9 @@
 .countres {
 	display: flex;
 	flex-direction: column;
-	  align-items: center;
+	align-items: center;
   &__title {
 	  	color: #fff;
-		font-family: "Roboto",Helvetica,Arial,sans-serif;
 		font-size: 45px;
 		font-weight: 100;
 		line-height: 60px;
@@ -146,7 +141,6 @@
   }
   &__phone {
   		color: #fff;
-		font-family: "Roboto",Helvetica,Arial,sans-serif;
 		font-size: 32px;
 		font-weight: 100;
 		line-height: 60px;

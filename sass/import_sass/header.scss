@@ -5,6 +5,7 @@
 html,
 body {
   height: 100%;
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
 }
 .wrapper {
 	max-width: 1920px;
@@ -98,10 +99,9 @@ body {
 				a {
 					color: #ffffff;
 					text-decoration: none;
-					font-family: "Roboto",Helvetica,Arial,sans-serif;
 					font-size: 14px;
 					font-weight: 400;
-					line-height: 36px;
+					line-height: 17px;
 					.phone {
 						border-bottom: dashed 1px;
 						i {
@@ -140,7 +140,6 @@ body {
 			a {
 				text-decoration: none;
 				color: #ffffff;
-				font-family: "Roboto",Helvetica,Arial,sans-serif;
 				font-weight: 700;
 				font-size: 29px;
 				line-height: 28.58px;
@@ -187,7 +186,6 @@ body {
 						display: block;
 						text-decoration: none;
 						color: #ffffff;
-						font-family: "Roboto",Helvetica,Arial,sans-serif;
 						font-size: 17px;
 						font-weight: 400;
 						line-height: 36.1px;
@@ -238,7 +236,6 @@ body {
 					h1 {
 						padding: 0 5px;
 						color: #ffffff;
-						font-family: "Roboto",Helvetica,Arial,sans-serif;
 						font-size: 64px;
 						font-weight: 100;
 						line-height: 70px;
@@ -247,7 +244,6 @@ body {
 					p {
 						padding: 0 5px;
 						color: #ffffff;
-						font-family: "Roboto",Helvetica,Arial,sans-serif;
 						font-size: 18px;
 						font-weight: 400;
 						line-height: 28px;
@@ -266,6 +262,6 @@ body {
 		padding: 0;
 		background-color: transparent;
 		border: none;
-		outline:none;
+		outline: none;
 		display: none;
 }

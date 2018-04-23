@@ -36,7 +36,6 @@
         .footer__contacts__2line--mail a {
           text-decoration: none;
           color: #ffffff;
-          font-family: "Roboto",Helvetica,Arial,sans-serif;
           font-weight: 100;
           font-size: 32px;
           line-height: 60px;
@@ -57,7 +56,6 @@
         color: #26abe4;
         font-size: 16px;
         line-height: 32px;
-        font-family: "Roboto",Helvetica,Arial,sans-serif;
         font-weight: 600; }
         .footer__tree__block ul li a:hover {
           border-bottom: 0.5px solid #26abe4; }
@@ -65,7 +63,6 @@
       color: #26abe4;
       font-size: 24px;
       line-height: 30px;
-      font-family: "Roboto",Helvetica,Arial,sans-serif;
       font-weight: 700; }
     .footer__tree__block__social {
       margin-top: 20px;
@@ -91,7 +88,6 @@
       color: #53687d;
       font-size: 16px;
       line-height: 22px;
-      font-family: "Roboto",Helvetica,Arial,sans-serif;
       font-weight: 100; }
     .footer__bottom__developer {
       display: flex;
@@ -112,14 +108,12 @@
   align-items: center; }
   .countres__title {
     color: #fff;
-    font-family: "Roboto",Helvetica,Arial,sans-serif;
     font-size: 45px;
     font-weight: 100;
     line-height: 60px;
     margin: 0; }
   .countres__phone {
     color: #fff;
-    font-family: "Roboto",Helvetica,Arial,sans-serif;
     font-size: 32px;
     font-weight: 100;
     line-height: 60px;
