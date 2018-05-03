@@ -17,7 +17,6 @@ $(".sandwich, .menu_item").click(function() {
 // Close pop-up
 var modal = document.querySelector('.form');
 window.onclick = function(event) {
-	event.preventDefault();
     if (event.target == modal) {
         modal.style.display = "none";
         $(".header__content__slider__slide__content").css("display", "block");
