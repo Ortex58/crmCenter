@@ -177,6 +177,8 @@ body {
           -ms-transform: rotateY(180deg);
           transform: rotateY(180deg);
           margin-right: 10px; }
+        .header__navs__nav1 li a:hover {
+          border-bottom: dashed 1px; }
     .header__navs__nav2 {
       width: 100%;
       height: 60px;
@@ -362,6 +364,8 @@ section {
       color: #ffffff;
       margin-left: 9px;
       outline: none; }
+      .content__button .demoBtn:hover {
+        background-color: #00b0f0; }
   .content__news {
     margin-bottom: 15px; }
     .content__news__item {
@@ -415,6 +419,9 @@ section {
   padding: 0 5px; }
   .newsBlockCenter img {
     margin: 5px; }
+    .newsBlockCenter img:hover {
+      filter: grayscale(50%);
+      --webkit-filter: grayscale(50%); }
 
 .footer {
   flex: 0 0 auto; }
@@ -536,6 +543,12 @@ section {
     font-weight: 100;
     line-height: 60px;
     margin: 0; }
+    .countres__phone a {
+      font: inherit;
+      color: inherit;
+      text-decoration: none; }
+      .countres__phone a:hover {
+        border-bottom: 2px dashed; }
 
 .f-phone {
   background: url(../img/all-social1.png) 0 -41px; }

@@ -121,6 +121,9 @@ body {
 						transform:rotateY(180deg);
 						margin-right: 10px;
 					}
+					&:hover {
+						border-bottom: dashed 1px;
+					}
 				}
 			}
 		}

@@ -71,6 +71,8 @@ section {
       color: #ffffff;
       margin-left: 9px;
       outline: none; }
+      .content__button .demoBtn:hover {
+        background-color: #00b0f0; }
   .content__news {
     margin-bottom: 15px; }
     .content__news__item {
@@ -124,3 +126,7 @@ section {
   padding: 0 5px; }
   .newsBlockCenter img {
     margin: 5px; }
+    .newsBlockCenter img:hover {
+      -webkit-filter: grayscale(50%);
+      filter: grayscale(50%);
+      --webkit-filter: grayscale(50%); }

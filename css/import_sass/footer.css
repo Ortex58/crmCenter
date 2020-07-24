@@ -118,6 +118,12 @@
     font-weight: 100;
     line-height: 60px;
     margin: 0; }
+    .countres__phone a {
+      font: inherit;
+      color: inherit;
+      text-decoration: none; }
+      .countres__phone a:hover {
+        border-bottom: 2px dashed; }
 
 .f-phone {
   background: url(../img/all-social1.png) 0 -41px; }
