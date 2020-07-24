@@ -74,6 +74,8 @@ var country = document.querySelector('.phone'),
     kaz = document.querySelector('.phone3'),
 	phoneNumber = ['+'+380+'('+44+')'+591+'-'+92+'-'+81, '+'+380+'('+32+')'+450+'-'+99+'-'+45, '+'+380+'('+36+')'+222+'-'+88+'-'+35],
 	phone = document.querySelector('#phone');
+	ukr_tel = 'tel:"+380(44)591-92-81"';
+	phone.href = ukr_tel;
 phone.innerHTML += phoneNumber[0];
 	
 ukr.onclick = function(e) {
