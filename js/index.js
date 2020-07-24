@@ -66,6 +66,7 @@ $(".f-mail").hover(function(e) {
 			$(this).removeClass('animated wobble');
 		});
 });
+
 // Country phone logic
 var country = document.querySelector('.phone'),
     ukr = document.querySelector('.phone1'),
@@ -75,22 +76,29 @@ var country = document.querySelector('.phone'),
 	phone = document.querySelector('#phone');
 phone.innerHTML += phoneNumber[0];
 	
-	
+ukr.onclick = function(e) {
+	e.preventDefault();
+	ukr_tel = 'tel:"+380(44)591-92-81"';
+	phone.href = ukr_tel;
+    phone.innerHTML = phoneNumber[0];
+    country.innerHTML = 'Украина' + '<i class="fas fa-angle-down"></i>';
+};
 rus.onclick = function(e) {
+	rus_tel = 'tel:"+380(32)450-99-45"';
+	phone.href = rus_tel;
 	e.preventDefault();
     phone.innerHTML = phoneNumber[1];
     country.innerHTML = 'Россия' + '<i class="fas fa-angle-down"></i>';
 };
-ukr.onclick = function(e) {
-	e.preventDefault();
-    phone.innerHTML = phoneNumber[0];
-    country.innerHTML = 'Украина' + '<i class="fas fa-angle-down"></i>';
-};
 kaz.onclick = function(e) {
 	e.preventDefault();
+	kaz_tel = 'tel:"+380(36)222-88-35"';
+	phone.href = kaz_tel;
     phone.innerHTML = phoneNumber[2];
     country.innerHTML = 'Казахстан' + '<i class="fas fa-angle-down"></i>';
 };
+
+/*----------------------------*/
 // Country-phone logic mobile
 var m_phone = document.querySelector('#m_phone'),
 	m_ukr = document.querySelector('.m_phone1'),

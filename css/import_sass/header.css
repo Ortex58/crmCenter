@@ -46,6 +46,7 @@ body {
 .header {
   position: relative; }
   .header__navs {
+    padding: 0 15px;
     position: absolute;
     z-index: 202;
     max-width: 950px;
